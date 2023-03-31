@@ -4,7 +4,7 @@ import articles from "./data/articles.json";
 
 class Articles extends React.Component {
   state = {
-    searchTerm: ""
+    searchTerm: "",
   };
   handleChange = ({ target: { value } }) => {
     this.setState({ searchTerm: value });

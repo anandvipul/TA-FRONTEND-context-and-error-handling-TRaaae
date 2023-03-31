@@ -1,11 +1,11 @@
 import { Route, Switch } from "react-router-dom";
 import Article from "./Article";
-import Articles from "./Articles";
-import Books from "./Books";
+import Articles from "./Articles2";
+import Books from "./Books2";
 import Help from "./Help";
 import Home from "./Home";
 import NotFound from "./NotFound";
-import People from "./People";
+import People from "./People2";
 
 function Main() {
   return (
